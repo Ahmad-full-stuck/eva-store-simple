@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --font-sans: var(--app-font-sans);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --background: 36 37% 97%;
+  --foreground: 18 17% 18%;
+  --card: 36 40% 99%;
+  --card-foreground: 18 17% 18%;
+  --border: 33 20% 88%;
+  --input: 33 20% 84%;
+  --ring: 331 63% 44%;
+  --primary: 331 63% 44%;
+  --primary-foreground: 36 40% 99%;
+  --secondary: 35 28% 92%;
+  --secondary-foreground: 18 17% 18%;
+  --muted: 35 28% 93%;
+  --muted-foreground: 18 11% 45%;
+  --app-font-sans: 'Readex Pro', sans-serif;
+  --radius: 0.8rem;
+  --shadow-soft: 0 16px 42px rgba(56, 40, 32, .08);
+  --shadow-lift: 0 8px 22px rgba(56, 40, 32, .11);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: hsl(var(--background)); color: hsl(var(--foreground)); font-family: var(--app-font-sans); }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid hsl(var(--ring) / .32); outline-offset: 3px; }
+.container-eva { width: min(1180px, calc(100% - 40px)); margin-inline: auto; }
+.brand-mark { width: 42px; height: 42px; border: 1.5px solid #25201f; border-radius: 50% 50% 45% 45%; position: relative; display: grid; place-items: center; }
+.brand-mark:before { content: ''; width: 12px; height: 22px; border: 1.5px solid #25201f; border-radius: 50% 50% 42% 42%; transform: rotate(19deg); }
+.brand-mark:after { content: ''; position: absolute; width: 19px; height: 1px; background: #25201f; bottom: 10px; transform: rotate(-65deg); }
+.text-gradient-accent { background: linear-gradient(110deg, #c51575, #dd702d); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.brand-ring { position: relative; }
+.brand-ring:before { content: ''; position: absolute; inset: -5px; border-radius: 999px; background: conic-gradient(#cb1876, #ec792a, #edc13a, #cb1876); z-index: -1; }
+.textile-lines { background-image: repeating-linear-gradient(0deg, transparent 0 10px, rgba(111, 82, 66, .06) 10px 11px); }
+.fabric-panel { position: relative; overflow: hidden; }
+.fabric-panel:after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(115deg, rgba(255,255,255,.22), transparent 35%, rgba(31,14,35,.08)); mix-blend-mode: soft-light; }
+.soft-card { background: hsl(var(--card)); border: 1px solid hsl(var(--border)); box-shadow: var(--shadow-soft); }
+.hairline { border-color: hsl(var(--border)); }
+.scroll-hide { scrollbar-width: none; }
+.scroll-hide::-webkit-scrollbar { display: none; }
+.modal-backdrop { background: rgba(33, 25, 22, .38); backdrop-filter: blur(5px); }
+.glass-utility { background: rgba(255, 251, 246, .88); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,.72); box-shadow: 0 8px 30px rgba(36, 25, 20, .12); }
+.animate-in { animation: fade-up .42s ease both; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 767px) {
+  .container-eva { width: min(100% - 28px, 620px); }
+  .mobile-bottom-space { padding-bottom: 86px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *:before, *:after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

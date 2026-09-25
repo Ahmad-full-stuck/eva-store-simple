@@ -1,0 +1,931 @@
+Design a premium, highly usable, modern Arabic RTL e-commerce website for the fabric brand shown in the provided Instagram reference screenshots.
+
+IMPORTANT:
+The screenshots are BRAND REFERENCES, NOT UI REFERENCES.
+Do NOT copy Instagram's layout, UI, cards, spacing, or visual structure.
+Extract only the brand personality, product category, logo character, color cues, textile richness, femininity, elegance, and visual atmosphere.
+
+BUSINESS CONTEXT
+This is an online fabric store serving customers across Iraq, with international shipping as stated by the brand.
+The catalog appears to include visually rich fabrics such as embroidered, sequined, patterned, stretch, velvet-like, twill/spandex and other fashion fabrics.
+The primary objective is to help users discover fabrics quickly, evaluate them confidently, and purchase with minimal friction.
+
+CORE PRODUCT PHILOSOPHY
+The website must feel:
+- modern
+- refined
+- calm
+- tactile
+- editorial
+- premium but approachable
+- visually rich without being visually noisy
+- distinctive, not template-based
+- trustworthy
+- extremely easy to use on mobile
+- equally polished on desktop
+- optimized for conversion without manipulative dark patterns
+
+The website should feel like a carefully art-directed textile showroom combined with a highly functional e-commerce platform.
+
+DO NOT CREATE:
+- generic Shopify-looking templates
+- generic fashion-store layouts
+- excessive rounded cards
+- excessive gradients
+- glassmorphism
+- neon effects
+- excessive shadows
+- giant empty hero sections
+- oversized typography that destroys product visibility
+- fake luxury aesthetics such as black + gold everywhere
+- visual clutter
+- unnecessary popups
+- fake urgency
+- fake countdowns
+- fake scarcity
+- fake reviews
+- fake discount percentages
+- hidden fees
+- misleading CTAs
+- forced account creation
+- dark patterns
+- repetitive card grids with no editorial rhythm
+
+BRAND VISUAL DIRECTION
+Use the supplied Instagram screenshots as the visual source of truth for brand personality.
+
+The current brand visually contains:
+- a predominantly clean white base
+- black/dark typography
+- a distinctive pink/magenta-to-orange gradient accent visible around the profile image
+- highly colorful textile imagery
+- a minimal fashion/mannequin-style logo illustration
+- rich textile textures
+- feminine fashion energy
+- strong contrast between neutral interface and vivid fabric photography
+
+Translate these cues into a sophisticated digital identity.
+
+Do NOT overuse the pink-orange gradient.
+Use it as a subtle brand accent for:
+- active states
+- selected controls
+- small decorative details
+- primary emphasis
+- focus/interaction states when appropriate
+
+The interface itself should remain primarily neutral so that the fabrics remain the visual stars.
+
+COLOR SYSTEM
+Primary background:
+- warm ivory / very soft off-white rather than sterile pure white
+
+Primary text:
+- deep charcoal / near-black
+
+Secondary surfaces:
+- very light warm gray / soft beige
+
+Borders:
+- extremely subtle warm neutral borders
+
+Brand accents:
+- restrained magenta
+- restrained warm orange
+- optional deep burgundy accent derived from the textile palette
+
+Do not use many accent colors simultaneously.
+The textile photography should provide most of the color richness.
+
+TYPOGRAPHY
+Use READex Pro as the primary typeface for the Arabic and Latin interface.
+
+Typography principles:
+- use Readex Pro consistently across the system
+- use only a small number of weights
+- 400 for body text
+- 500 for navigation, metadata and controls
+- 600 for headings and key emphasis
+- avoid unnecessary bold text
+- avoid condensed Arabic typography
+- avoid decorative Arabic display fonts for UI
+- prioritize calm reading rhythm and excellent Arabic rendering
+
+Use a carefully tuned line-height system.
+Arabic text should never feel vertically cramped.
+Do not use tiny text for important information.
+
+TYPE SCALE
+Desktop:
+- Display: approximately 48–64px
+- H1: approximately 40–48px
+- H2: approximately 30–36px
+- H3: approximately 22–28px
+- body: approximately 16–18px
+- small/supporting text: approximately 13–14px
+
+Mobile:
+- H1: approximately 30–36px
+- H2: approximately 24–28px
+- H3: approximately 18–22px
+- body: approximately 15–17px
+- metadata: approximately 13–14px
+
+Do not blindly follow exact pixel values if visual balance requires slight adjustment.
+The final result must prioritize readability and hierarchy.
+
+LAYOUT SYSTEM
+Use a strong, consistent responsive grid.
+
+Desktop:
+- 12-column grid
+- large but controlled max-width
+- generous horizontal margins
+- strong alignment
+- balanced whitespace
+- occasional asymmetric editorial composition
+
+Tablet:
+- flexible multi-column system
+
+Mobile:
+- simplified single-column flow where necessary
+- 2-column product grid when product imagery remains clear
+- comfortable horizontal padding
+- never create horizontal scrolling for normal content
+
+The composition should feel intentional rather than like a collection of standard components.
+
+VISUAL DESIGN LANGUAGE
+Create a subtle connection to textiles through:
+- soft woven-inspired lines
+- subtle seam/stitch-inspired dividers
+- fabric-fold-inspired curves
+- restrained editorial framing
+- large close-up textile photography
+- tactile texture as a visual storytelling element
+
+These details must be extremely subtle.
+The interface should not literally look like fabric.
+No cheesy textile illustrations.
+
+HOMEPAGE STRUCTURE
+
+1. TOP ANNOUNCEMENT BAR
+A very slim informational strip.
+Example content:
+"شحن إلى جميع محافظات العراق • شحن دولي"
+Only display claims that are actually true.
+
+2. HEADER
+Desktop:
+- brand logo
+- main navigation
+- prominent search
+- favorites
+- cart
+- optional account
+
+Mobile:
+- logo
+- search icon / expandable search
+- cart
+- compact menu
+
+The header should remain visually calm.
+Avoid filling the header with too many icons.
+
+3. HERO
+Create an editorial hero using a strong real textile visual.
+
+The hero should NOT rely on text over a visually chaotic fabric background.
+
+Prefer:
+- image + clean text area
+OR
+- controlled image composition with a clear quiet region for typography
+
+Hero messaging should communicate:
+what the store sells
+why it is different
+and what the user should do next
+
+Primary CTA:
+"تصفحي الأقمشة"
+Secondary CTA:
+"اكتشفي الجديد"
+
+Do not create generic marketing copy.
+Use short, confident Arabic copy.
+
+4. CATEGORY DISCOVERY
+Immediately help users understand what can be found on the site.
+
+Create visually distinct category entry points using textile imagery.
+
+Examples may include categories such as:
+- مطرز
+- سادة
+- سبانديكس / مطاطي
+- ترتر ولمّاع
+- منسوجات مزخرفة
+Only use categories that actually exist in the catalog.
+
+The section must help users understand the breadth of the store without making them read a large menu.
+
+5. "FIND THE RIGHT FABRIC" GUIDED DISCOVERY
+Create a small optional guided shopping experience.
+
+Instead of asking users to browse hundreds of items immediately, allow them to narrow the catalog through simple questions such as:
+- ماذا ستصنعين؟
+- هل تريدين قماشًا مطاطيًا؟
+- هل تبحثين عن قماش خفيف أم ثقيل؟
+- ما اللون؟
+- ما نوع اللمعة/التشطيب؟
+
+Keep this interaction short.
+Do not make it feel like a questionnaire.
+Use progressive disclosure.
+
+6. FEATURED COLLECTION / NEW ARRIVALS
+Create a carefully art-directed product section.
+
+Do not use an endless generic carousel.
+
+Product cards should show:
+- strong product image
+- product name
+- fabric type
+- price per meter if that is the actual selling unit
+- color availability
+- stock status when relevant
+- rating/review information only when real
+- subtle quick action
+
+7. SOCIAL PROOF
+Create a "من اختيارات عميلاتنا" or similar section only when real customer content is available.
+
+Use:
+- real customer photos
+- real reviews
+- authentic Instagram/customer visuals
+
+Do not fabricate review counts or customer statements.
+
+Customer-generated visual content should feel authentic rather than overly polished.
+
+8. EDUCATIONAL / CONFIDENCE SECTION
+Because customers cannot touch fabric through the screen, create a highly useful education module.
+
+Possible content:
+- كيف تختارين القماش المناسب؟
+- ما الفرق بين الأقمشة المطاطة وغير المطاطة؟
+- كيف تعرفين سماكة القماش؟
+- ماذا يعني عرض القماش؟
+- كيف تختارين الكمية المناسبة؟
+
+Use editorial cards or a clean learning layout.
+
+9. BRAND STORY
+Keep this concise.
+Focus on:
+- what the store specializes in
+- who it serves
+- what makes shopping here easier
+- reliability and service
+
+Do not write a long corporate "About Us" wall.
+
+10. DELIVERY / SUPPORT / TRUST
+Create a visually restrained reassurance section.
+
+Possible trust points:
+- shipping across Iraq
+- international shipping if currently offered
+- customer support
+- clear return/exchange policy
+- secure payment methods
+Only display services that genuinely exist.
+
+11. FOOTER
+Include:
+- categories
+- customer service
+- shipping
+- returns/exchanges
+- contact
+- WhatsApp/social links
+- privacy
+- terms
+- Instagram
+
+PRODUCT LISTING PAGE
+
+Create an exceptional catalog browsing experience.
+
+Desktop:
+- clean page header
+- breadcrumb
+- category title
+- product count
+- sorting
+- filter sidebar
+
+Mobile:
+- sticky "فلترة" and "ترتيب"
+- filters open as a clean full-screen or bottom-sheet style interface
+- clearly display active filters
+- easy "clear all"
+
+FILTERS SHOULD BE DOMAIN-SPECIFIC
+Possible filters:
+- نوع القماش
+- اللون
+- السعر
+- العرض
+- التركيب
+- نسبة المطاط / stretch
+- السماكة / GSM when available
+- اللمعة / التشطيب
+- الاستخدام
+- التوفر
+
+Do NOT create filters that the business cannot actually maintain with accurate product data.
+
+SEARCH
+The search system should support natural product discovery.
+
+It should understand searches involving:
+- product type
+- color
+- material
+- size/measurement
+- specifications
+- use case
+- price range
+- descriptive combinations
+
+Example:
+"قماش أسود مطاطي للسهرات"
+
+Search results should be understandable and visually scannable.
+
+PRODUCT CARD
+Each product card should prioritize rapid evaluation.
+
+Include only the most decision-relevant information.
+
+Required visual hierarchy:
+1. product image
+2. product name/type
+3. one or two meaningful fabric characteristics
+4. price
+5. available colors/variants
+6. stock status where necessary
+
+Do not overload cards with specifications.
+
+IMAGE SYSTEM
+Product images are critical for this business.
+
+Use multiple image types:
+- clean overall fabric image
+- close-up texture image
+- image showing scale
+- image showing drape/behavior when relevant
+- image showing garment/application when relevant
+- optional short video showing movement or texture
+
+For fabric products, texture should be visually understandable.
+
+If possible, include a "zoom texture" interaction.
+
+Never rely on one photo to communicate everything.
+
+PRODUCT DETAIL PAGE
+
+This is the most important conversion page.
+
+Desktop:
+Use a balanced two-column composition:
+LEFT/MAIN:
+- large product gallery
+
+RIGHT:
+- product name
+- concise value statement
+- price per meter
+- availability
+- color/variant selection
+- quantity/length selector
+- main CTA
+- delivery and return reassurance
+
+The product purchase area must remain visually connected while scrolling.
+
+MOBILE:
+Create a highly usable product page with:
+- large gallery
+- product information
+- sticky or persistently accessible primary purchase CTA
+- easy variant selection
+- quantity/length input
+
+PRODUCT INFORMATION
+For fabric specifically consider:
+- composition
+- width
+- weight / GSM if available
+- stretch
+- opacity
+- finish
+- texture
+- drape
+- recommended use
+- care instructions
+- minimum order quantity if applicable
+- purchase unit
+- stock availability
+
+Never invent specifications.
+
+The customer should not have to hunt for information that materially affects the decision.
+
+Use structured, scannable sections rather than giant paragraphs.
+
+Example:
+"الخامة"
+"العرض"
+"السماكة"
+"التمدد"
+"الشفافية"
+"الاستخدام"
+"العناية"
+
+VARIANT SELECTION
+Use visual swatches when the catalog contains meaningful color variation.
+
+Swatches must:
+- visually represent actual colors
+- clearly show selected state
+- clearly communicate unavailable combinations
+- not imply availability where none exists
+
+When a variant affects image, price or availability, the interface should update immediately.
+
+QUANTITY / LENGTH
+Because fabric is sold by length, do not make this look like a standard clothing quantity selector.
+
+Create a dedicated length control.
+
+Example:
+الكمية: [ 1.00 ] متر
+
+If quarter-meter / half-meter increments exist, show the actual allowed increment.
+If minimum quantity exists, make it visible before purchase.
+
+TRUST INFORMATION
+Near the purchase action, show concise reassurance:
+- delivery information
+- return/exchange information
+- support contact
+- payment reassurance if applicable
+
+Do not bury critical policies in tiny text.
+
+SOCIAL PROOF
+If real reviews exist:
+- average rating
+- number of reviews
+- useful review excerpts
+- customer-uploaded images
+- review filtering
+- verified purchase indicator when technically valid
+
+Do not manufacture reviews.
+Do not hide negative reviews merely because they reduce conversion.
+
+FAQ
+Use concise product-specific FAQ.
+
+Questions might cover:
+- هل القماش شفاف؟
+- هل يتمدد؟
+- ما عرض القماش؟
+- ما أفضل استخدام له؟
+- كيف تتم العناية به؟
+- هل اللون مطابق للصورة؟
+Only include questions relevant to the product.
+
+RELATED PRODUCTS
+Use intelligent cross-navigation:
+- similar fabrics
+- same color family
+- same use case
+- complementary fabrics
+
+Do not use unrelated "recommended for you" items merely to fill space.
+
+CART
+
+Design a frictionless cart.
+
+Show:
+- product image
+- product name
+- selected color/variant
+- length
+- price per unit
+- subtotal
+- delivery estimate/cost when available
+- total
+
+Do not create surprise costs at the last step.
+
+Allow users to edit:
+- length
+- variant
+- quantity
+
+Provide a clear primary checkout button.
+
+CHECKOUT
+
+Design checkout as a focused task, not a marketing page.
+
+IMPORTANT:
+- allow guest checkout
+- make guest checkout obvious
+- do not force account creation before purchase
+- keep the number of visible fields low
+- use clear labels
+- support browser autofill
+- use correct mobile keyboards
+- preserve entered data after errors
+- show field-level validation
+- show a clear progress indicator
+- keep order summary visible when useful
+- clearly state delivery costs and total price before final confirmation
+
+For an Iraq-focused store, create flexible address fields suitable for Iraqi delivery workflows without assuming a single universal address format.
+
+Include the ability to support:
+- governorate
+- district/sub-area
+- address details
+- phone number
+
+Adapt the exact fields to the actual shipping provider and business process.
+
+SUCCESS / ORDER CONFIRMATION
+Create a calm, reassuring confirmation experience.
+
+Show:
+- confirmation status
+- order number
+- summary
+- delivery information
+- support/contact
+- order tracking when available
+
+Optionally offer account creation after purchase rather than interrupting checkout.
+
+PSYCHOLOGY / BEHAVIORAL DESIGN
+
+Use ethical behavioral principles:
+
+1. COGNITIVE FLUENCY
+Make information easy to understand.
+Avoid ambiguous wording.
+Prefer obvious labels.
+
+2. CHOICE ARCHITECTURE
+Do not overwhelm customers with hundreds of choices immediately.
+Guide them through categories, filters and optional discovery tools.
+
+3. INFORMATION PROGRESSIVE DISCLOSURE
+Show the most important decision information first.
+Reveal deeper specifications when needed.
+
+4. SOCIAL PROOF
+Use authentic reviews, customer photos and real usage examples.
+
+5. AUTHORITY / EXPERTISE
+Demonstrate knowledge through accurate fabric specifications and educational content rather than exaggerated claims.
+
+6. LOSS-AVERSION WITHOUT MANIPULATION
+Make real consequences visible:
+- low stock when genuinely low
+- shipping deadlines when genuine
+- minimum order quantities
+- return conditions
+
+Never invent urgency.
+
+7. ANCHORING ONLY WHEN LEGITIMATE
+Show comparison or previous prices only when they represent genuine pricing history or a real reference price.
+
+8. RISK REDUCTION
+Before purchase, answer the questions that create uncertainty:
+- What is it made of?
+- How wide is it?
+- Does it stretch?
+- Is it transparent?
+- What does it look like close up?
+- How does it drape?
+- How much does delivery cost?
+- What happens if there is a problem?
+
+9. COMMITMENT & PROGRESS
+Make checkout feel finite and understandable.
+Show clear progress instead of making the user wonder how many steps remain.
+
+10. RECENCY / DISCOVERY
+Use "جديد" or "وصل حديثًا" only for genuinely new stock.
+
+11. PERSONAL RELEVANCE
+Recommend products based on useful relationships:
+same color, same use case, similar material, complementary fabric.
+
+12. NO DARK PATTERNS
+Absolutely prohibit:
+- fake countdowns
+- fake stock numbers
+- fake reviews
+- hidden fees
+- preselected unwanted extras
+- disguised advertising
+- forced account creation
+- confusing cancellation
+- misleading price comparisons
+
+INTERACTION DESIGN
+
+Interactions should feel quiet and premium.
+
+Use:
+- subtle hover states
+- smooth but fast transitions
+- clear selected states
+- immediate feedback after actions
+- loading placeholders where needed
+- skeleton states only where they help
+- no excessive animation
+
+Animation should support orientation, not decoration.
+
+Respect reduced-motion preferences.
+
+MOBILE EXPERIENCE
+
+Treat mobile as a first-class product, not a shrunk desktop.
+
+Test the design at:
+- 320px
+- 360px
+- 390px
+- 430px
+
+The entire shopping journey must work comfortably with one hand where reasonable.
+
+Prioritize:
+- thumb-friendly controls
+- persistent access to search
+- cart visibility
+- easy filter usage
+- readable product information
+- sticky purchase action on product pages
+- no horizontal overflow
+- no tiny icons
+- no text trapped inside cramped UI
+
+DESKTOP EXPERIENCE
+
+Test at:
+- 1280px
+- 1440px
+- 1920px
+
+At large widths, do not allow content to stretch excessively.
+Maintain an elegant max content width and intentional whitespace.
+
+ACCESSIBILITY
+
+Design toward WCAG 2.2 AA.
+
+Requirements:
+- strong text/background contrast
+- visible keyboard focus states
+- accessible form labels
+- clear error states
+- no color-only communication
+- logical heading hierarchy
+- accessible icon buttons
+- semantic interaction patterns
+- comfortable touch targets
+- full RTL support
+- readable Arabic at zoom
+- support reflow without destroying functionality
+- no essential content hidden only inside hover interactions
+
+Do not sacrifice accessibility for visual minimalism.
+
+PERFORMANCE-FIRST DESIGN
+
+The visual system must be created with real implementation performance in mind.
+
+Target Core Web Vitals:
+- LCP <= 2.5s
+- INP <= 200ms
+- CLS <= 0.1
+
+Performance principles:
+- do not design around giant background videos
+- avoid excessive animation
+- avoid large image walls above the fold
+- use responsive image crops
+- reserve image dimensions to prevent layout shifts
+- compress imagery appropriately
+- prefer AVIF/WebP where supported
+- lazy-load below-the-fold images
+- do not lazy-load the primary above-the-fold hero/LCP image
+- keep the primary hero asset intentionally lightweight
+- use a limited font family
+- use only necessary font weights
+- self-host/subset WOFF2 fonts where practical
+- avoid unnecessary third-party scripts
+- avoid visual components that require large JavaScript bundles
+- do not create unnecessary carousels
+
+The design should be beautiful because of hierarchy, composition, photography and typography—not because of expensive effects.
+
+IMAGE PERFORMANCE RULES
+Above-the-fold:
+- prioritize the primary visual
+- avoid multiple competing large images
+
+Below-the-fold:
+- lazy-load images
+- use responsive image sizes
+- avoid serving desktop-sized assets to mobile devices
+
+Never allow image loading to cause layout jumps.
+
+DESIGN SYSTEM
+
+Create a complete reusable design system before final screens.
+
+Include:
+- color tokens
+- typography tokens
+- spacing scale
+- radii
+- borders
+- shadows
+- button system
+- form controls
+- product cards
+- badges
+- chips
+- filters
+- swatches
+- navigation
+- breadcrumbs
+- alerts
+- modals
+- bottom sheets
+- accordion
+- tabs
+- pagination/load more
+- skeleton/loading states
+- success/error states
+- empty states
+
+Create component variants for:
+- default
+- hover
+- active
+- selected
+- disabled
+- loading
+- error
+- success
+
+Use consistent naming and Auto Layout.
+
+RTL must be implemented at the component level, not simulated manually.
+
+STATES TO DESIGN
+
+Do not only create the "happy path".
+
+Show realistic states:
+- product in stock
+- low stock
+- out of stock
+- selected color
+- unavailable color
+- selected length
+- invalid quantity
+- empty cart
+- cart with multiple items
+- search with results
+- search with no results
+- filtering applied
+- loading catalog
+- product image loading
+- checkout validation error
+- successful order
+- network/loading state
+
+SEARCH EMPTY STATE
+Never say only "No results".
+
+Provide helpful next actions such as:
+- remove filters
+- try another term
+- browse categories
+
+EMPTY CART
+Create an elegant, reassuring empty state with:
+- visual
+- concise message
+- CTA to browse fabrics
+
+FINAL ART DIRECTION
+
+The final website should feel like:
+"A modern digital textile studio where every fabric is easy to discover, understand and trust."
+
+It should combine:
+editorial fashion direction
++
+luxury-level visual discipline
++
+high-usability e-commerce
++
+Arabic-first UX
++
+mobile-first thinking
++
+ethical conversion design
++
+high perceived product quality
++
+fast implementation potential
+
+The interface must NOT look like an ordinary local online store.
+
+It should look professionally art-directed, yet remain practical, fast and easy to use.
+
+IMPORTANT:
+Do not prioritize visual novelty over usability.
+Do not prioritize conversion gimmicks over trust.
+Do not create unnecessary sections just to make the page look "premium".
+Every component must have a reason.
+
+FINAL DELIVERABLES
+
+Create:
+1. Full responsive design system
+2. Desktop homepage
+3. Mobile homepage
+4. Desktop category/product listing
+5. Mobile category/product listing
+6. Desktop product details page
+7. Mobile product details page
+8. Cart
+9. Mobile cart
+10. Checkout
+11. Mobile checkout
+12. Order confirmation
+13. Search experience
+14. Filter experience
+15. Empty states
+16. Loading states
+17. Error states
+18. Component library
+19. Typography/color/spacing tokens
+20. Developer-ready Auto Layout components
+
+Use realistic Arabic RTL content.
+Do not use lorem ipsum.
+Keep copy concise and natural.
+
+MOST IMPORTANT DESIGN TEST:
+At first glance, the user should immediately understand:
+WHAT IS BEING SOLD
+HOW TO FIND IT
+WHY THEY CAN TRUST THE STORE
+WHAT TO DO NEXT
+
+At the product page, the user should immediately understand:
+WHAT THIS FABRIC IS
+HOW IT LOOKS
+HOW IT BEHAVES
+HOW MUCH IT COSTS
+HOW MUCH THEY NEED
+WHETHER IT IS AVAILABLE
+WHAT HAPPENS AFTER THEY ORDER
+
+The design should make the purchasing decision easier by reducing uncertainty, not by forcing the user into a decision.

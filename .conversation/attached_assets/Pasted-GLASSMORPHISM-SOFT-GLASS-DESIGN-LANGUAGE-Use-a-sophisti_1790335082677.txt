@@ -1,0 +1,414 @@
+GLASSMORPHISM / SOFT GLASS DESIGN LANGUAGE
+
+Use a sophisticated, restrained form of glassmorphism.
+
+IMPORTANT:
+Do NOT make the entire website glassmorphic.
+Do NOT use glass cards everywhere.
+Glass is an accent layer, not the foundation of the UI.
+
+The foundation must remain:
+- warm ivory
+- clean
+- calm
+- tactile
+- editorial
+- spacious
+
+Use "Soft Frosted Glass" selectively for:
+- sticky header when scrolling
+- floating utility controls
+- search overlay
+- filter drawer
+- mobile bottom navigation where appropriate
+- small floating information panels
+- selected promotional micro-panels
+- elegant modal/dialog surfaces
+
+GLASS MATERIAL CHARACTERISTICS:
+- translucent warm-white surface
+- subtle opacity
+- very soft background blur
+- extremely subtle border
+- low visual noise
+- restrained shadow
+- no heavy glow
+- no chrome-like reflections
+- no excessive transparency
+- no exaggerated Apple-style glass everywhere
+
+The glass should feel:
+"light, soft, expensive, modern and almost invisible"
+
+It must never feel:
+"futuristic, gaming, neon, cyberpunk or over-designed".
+
+When the glass overlays textile photography:
+- blur the background enough to preserve readability
+- preserve a sense of the textile texture behind the glass
+- never allow the textile image to interfere with text readability
+
+Always preserve adequate contrast between foreground and background.
+Glass surfaces must never reduce readability merely for visual effect.
+
+Use fallback solid/opaque surfaces when transparency or backdrop blur would harm readability or performance.
+
+TYPOGRAPHY — DISTINCTIVE BUT EXTREMELY COMFORTABLE
+
+Typography is one of the most important visual identifiers of this website.
+
+Use Readex Pro as the primary Arabic-first interface family.
+
+Do not use:
+- Cairo
+- Tajawal
+- Arial
+- Tahoma
+- generic system Arabic fonts
+- overused "modern Arabic startup" typography
+- decorative Arabic fonts for UI
+
+The goal is to create a typography identity that feels distinctive without becoming strange or difficult to read.
+
+READex Pro usage:
+- Arabic body: 400
+- Arabic secondary information: 400
+- navigation / labels: 500
+- headings: 600
+- major display moments: 600
+- avoid excessive 700 usage
+
+Do not use heavy bold text everywhere.
+
+LETTERFORM / RHYTHM:
+- generous line-height
+- comfortable paragraph width
+- balanced Arabic word density
+- clean separation between labels and content
+- avoid tightly packed navigation
+- avoid extremely short line-height
+- avoid large blocks of dense text
+
+For important editorial headlines, allow more breathing room.
+For shopping information, prioritize compact clarity.
+
+LATIN TYPOGRAPHY:
+Use the same Readex family where practical for consistency.
+Do not mix multiple unrelated typefaces across the UI.
+
+Optional secondary editorial accent:
+A very subtle serif may be used only for one or two large campaign/editorial moments if it genuinely improves the brand identity, but never for navigation, product information or checkout.
+
+The overall system should still look cohesive if the serif accent is removed.
+
+TYPOGRAPHIC PERSONALITY:
+The website should visually communicate:
+fashion
+craftsmanship
+precision
+calm confidence
+modernity
+
+It should NOT communicate:
+technology startup
+gaming
+generic marketplace
+corporate banking
+cheap fast-fashion template
+
+TYPOGRAPHY TEST:
+Every major screen must look beautiful in Arabic before considering the design complete.
+Do not create a beautiful Latin interface and simply replace the text with Arabic.
+
+RTL TYPOGRAPHIC BALANCE:
+Pay special attention to:
+- Arabic punctuation
+- Arabic/Latin mixing
+- numerals
+- prices
+- dates
+- measurements
+- product specifications
+- phone numbers
+- navigation alignment
+
+The Arabic rhythm must feel native and intentional.
+
+VISUAL COMFORT SYSTEM
+
+The entire visual system should be designed to reduce visual fatigue.
+
+Use:
+- large whitespace blocks
+- predictable spacing
+- restrained borders
+- limited accent colors
+- soft neutrals
+- consistent alignment
+- clear grouping
+- strong hierarchy
+- moderate image density
+- controlled card density
+
+Avoid:
+- excessive borders
+- excessive shadows
+- excessive gradients
+- visual vibration
+- too many competing focal points
+- too many badges
+- too many CTAs
+- unnecessary animations
+
+Create "quiet zones" between major sections.
+
+The user should feel:
+"I can browse here for a long time without getting tired."
+
+The design should be visually interesting because of:
+- textile photography
+- composition
+- typography
+- subtle materiality
+- spacing
+- editorial rhythm
+
+Not because of dozens of visual effects.
+
+ETHICAL CONVERSION DESIGN
+
+The commercial design should maximize clarity, confidence and purchase readiness.
+
+Do NOT optimize conversion through manipulation.
+
+Instead use:
+- clear value communication
+- friction reduction
+- information hierarchy
+- product confidence
+- authentic social proof
+- transparent pricing
+- clear shipping information
+- clear return/exchange information
+- clear product specifications
+- relevant recommendations
+- meaningful calls to action
+
+Psychological principles to apply:
+- cognitive fluency
+- progressive disclosure
+- choice architecture
+- social proof
+- authority through expertise
+- uncertainty reduction
+- commitment/progress
+- perceived control
+- loss aversion only when factually justified
+
+NEVER use:
+- fake countdowns
+- fake scarcity
+- fake reviews
+- fake stock numbers
+- fake discounts
+- hidden fees
+- forced subscriptions
+- forced account creation
+- deceptive default selections
+- misleading button hierarchy
+- confusing cancellation
+- disguised advertising
+
+The goal is:
+"make the correct decision easier"
+not:
+"pressure the user into purchasing".
+
+COMMERCIAL STRUCTURE
+
+Design every important screen so that a real store could later connect actual commerce functionality to it.
+
+The prototype architecture should support:
+- product data
+- variants
+- prices
+- stock
+- search
+- filtering
+- cart
+- checkout
+- shipping
+- customer reviews
+- recommendations
+
+But THIS VERSION is a PRESENTATION PROTOTYPE.
+
+DEMO / CLIENT PRESENTATION MODE
+
+Do not use real products, real inventory or fabricated business claims.
+
+Create the interface as a polished high-fidelity demonstration.
+
+Where products are normally required:
+- use elegant neutral textile placeholders
+OR
+- use clearly labeled "Demo / Sample" content
+OR
+- use abstract fabric texture placeholders that demonstrate layout without pretending to represent real inventory
+
+Do not fabricate:
+- fake customer reviews
+- fake sales numbers
+- fake stock levels
+- fake ratings
+- fake order history
+- fake shipping promises
+- fake prices presented as real business information
+
+The prototype should demonstrate the SYSTEM, not pretend that the store is already operational.
+
+INTERACTIVE PROTOTYPE BEHAVIOR
+
+The sample should feel like a real website.
+
+Make the following interactions demonstrable:
+
+1. Header navigation
+2. Search open/close
+3. Search input interaction
+4. Category navigation
+5. Product-card interaction using demo placeholders
+6. Filter drawer opening
+7. Filter selection
+8. Sorting interaction
+9. Mobile menu
+10. Cart drawer/page
+11. Quantity/length controls
+12. Variant selection
+13. Add-to-cart state
+14. Wishlist interaction
+15. Product image gallery
+16. Zoom interaction
+17. Accordion for product details
+18. FAQ interaction
+19. Checkout progression
+20. Error state
+21. Success state
+22. Empty cart
+23. Search no-results state
+24. Loading state
+25. Sticky mobile CTA behavior
+
+Figma prototype interactions should demonstrate realistic transitions.
+
+Use:
+- quick transitions
+- subtle opacity
+- restrained movement
+- no dramatic animations
+
+The interface must feel fast even as a prototype.
+
+DEMO WITHOUT REAL PRODUCTS
+
+The homepage should not depend on having dozens of products.
+
+Instead, demonstrate the architecture using:
+- editorial textile imagery
+- category placeholders
+- curated sample slots
+- a product discovery interaction
+- sample product detail layout
+- empty/loading states
+
+The client should finish the demonstration thinking:
+"This could immediately become a real store once the actual catalog is connected."
+
+FINANCIAL / BUSINESS IMPRESSION
+
+The visual system must communicate commercial value.
+
+The customer must perceive:
+- quality
+- reliability
+- specialization
+- expertise
+- ease
+- confidence
+
+The site should encourage purchasing naturally through excellent experience.
+
+Do not make the website look "expensive" through unnecessary visual decoration.
+Make it look valuable through:
+- precision
+- consistency
+- photography
+- information quality
+- typography
+- interaction quality
+- restrained premium materials
+- excellent spacing
+
+The commercial objective is not simply:
+"get the user to click Buy".
+
+It is:
+"help the right customer confidently decide to buy."
+
+FINAL VISUAL TARGET
+
+Imagine:
+A contemporary Arabic textile showroom
++
+premium editorial fashion magazine
++
+high-conversion e-commerce UX
++
+soft frosted glass accents
++
+exceptionally calm typography
++
+extremely clean RTL interaction design
+
+The experience should feel:
+quiet
+tactile
+fashionable
+modern
+precise
+trustworthy
+distinctive
+
+NOT:
+generic
+template-like
+overly futuristic
+overly feminine
+cheap
+busy
+corporate
+or copied from another fashion website.
+
+UNIQUENESS REQUIREMENT
+
+Do not imitate existing well-known fashion/e-commerce sites.
+
+Create a unique visual grammar for this brand.
+
+Build uniqueness through:
+- textile-inspired rhythm
+- asymmetric editorial moments
+- distinctive typography
+- subtle glass materiality
+- custom spacing relationships
+- elegant image framing
+- restrained brand gradient usage
+- custom micro-interactions
+
+Do not invent complexity merely to be different.
+
+Every unusual element must still improve:
+brand recognition
+clarity
+navigation
+or perceived quality.
