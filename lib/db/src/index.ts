@@ -1,16 +1,31 @@
-import { drizzle } from "drizzle-orm/node-postgres";
-import pg from "pg";
+import { drizzle, type NodePgDatabase } from "drizzle-orm/node-postgres";
+import pg, { type Pool } from "pg";
 import * as schema from "./schema";
 
-const { Pool } = pg;
+export { z } from "zod";
 
-if (!process.env.DATABASE_URL) {
-  throw new Error(
-    "DATABASE_URL must be set. Did you forget to provision a database?",
-  );
+export type Database = NodePgDatabase<typeof schema>;
+
+const configuredUrl = process.env.DATABASE_URL?.trim() || undefined;
+let poolInstance: Pool | undefined;
+let databaseInstance: Database | undefined;
+
+export const isDatabaseConfigured = Boolean(configuredUrl);
+
+export function getPool(): Pool {
+  if (!configuredUrl) {
+    throw new Error("DATABASE_URL is required to create a database pool");
+  }
+  poolInstance ??= new pg.Pool({ connectionString: configuredUrl });
+  return poolInstance;
 }
 
-export const pool = new Pool({ connectionString: process.env.DATABASE_URL });
-export const db = drizzle(pool, { schema });
+export function getDb(): Database {
+  databaseInstance ??= drizzle(getPool(), { schema });
+  return databaseInstance;
+}
+
+export const pool = configuredUrl ? getPool() : undefined;
+export const db = configuredUrl ? getDb() : undefined;
 
 export * from "./schema";
