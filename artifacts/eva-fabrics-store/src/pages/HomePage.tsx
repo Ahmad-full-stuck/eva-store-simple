@@ -56,7 +56,7 @@ export function HomePage({ products, categories, wishlist, onWish, onAdd }: Home
           <div className="hero-note"><span className="note-dot" />توصيل إلى جميع محافظات العراق <span className="note-divider" /> دفع عند استلام الطلب</div>
         </div>
         <div className="hero-visual">
-          <img src="/fabrics/hero.jpg" alt="نماذج من أقمشة إيفا ستور" />
+          <img src="fabrics/hero.jpg" alt="نماذج من أقمشة إيفا ستور" />
           <div className="hero-visual-overlay" />
           <div className="hero-floating-card"><span>تشكيلة مختارة</span><strong>+١٣٩</strong><small>صنفاً متنوعاً</small></div>
           <div className="hero-vertical-label">EVA · FABRICS</div>
@@ -98,7 +98,7 @@ export function HomePage({ products, categories, wishlist, onWish, onAdd }: Home
       </section>
 
       <section className="container-eva section-block story-section">
-        <div className="story-visual"><img src="/fabrics/blue.jpg" alt="تفاصيل نسيج أزرق من معرض إيفا" /><span>Since<br /><strong>Eva</strong></span></div>
+        <div className="story-visual"><img src="fabrics/blue.jpg" alt="تفاصيل نسيج أزرق من معرض إيفا" /><span>Since<br /><strong>Eva</strong></span></div>
         <div className="story-copy"><span className="eyebrow">قصة العلامة</span><h2>{homeStory.title}</h2><p>{homeStory.text}</p><p>نصمم تجربتنا لتكون قريبة منك: صور واضحة، مواصفات مفهومة، وخدمة تساعدك قبل الطلب وبعده.</p><Link href="/about" className="button button-outline">اعرفي أكثر عن إيفا <ArrowLeft size={16} /></Link></div>
       </section>
 

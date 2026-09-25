@@ -19,7 +19,7 @@ export function ProductCard({ product, wished, onWish, onAdd }: ProductCardProps
     <article className="product-card">
       <div className="product-card-media">
         <Link href={`/product/${product.slug}`} className="product-card-image-link" aria-label={`عرض تفاصيل ${product.name}`}>
-          <img src={product.image} alt={product.name} className="product-card-image" loading="lazy" onError={(event) => { event.currentTarget.src = '/fabrics/hero.jpg' }} />
+          <img src={product.image} alt={product.name} className="product-card-image" loading="lazy" onError={(event) => { event.currentTarget.src = 'fabrics/hero.jpg' }} />
         </Link>
         <div className="product-card-badges">
           {product.isNew && <span className="badge badge-accent">جديد</span>}
